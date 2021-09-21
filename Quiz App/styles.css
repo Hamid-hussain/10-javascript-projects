@@ -7,17 +7,19 @@ body{
   justify-content: center;
 }
 
-.quiz-header{
+.quiz-container{
   background-color:white;
   border-radius: 10px;
   box-shadow: 0px 0px 5px black;
-  padding: 4rem;
   text-align: center;
   width: 600px;
   max-width: 100%;
   border: 1px solid black;
   overflow: hidden;
+}
 
+.quiz-header {
+  padding: 2rem;
 }
 
 .quiz-container ul {
@@ -26,7 +28,21 @@ body{
   padding: 0;
 }
 
+h2{
+  margin: 10px;
+}
+
+ul li {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
 button{
+  cursor: pointer;
   background-color: rgb(136, 113, 199);
   display: block;
   color: white;
@@ -34,4 +50,8 @@ button{
   border: none;
   font-size: 1.5rem;
   width: 100%;
+}
+
+button:hover{
+  background-color:rgb(86, 57, 110);
 }
