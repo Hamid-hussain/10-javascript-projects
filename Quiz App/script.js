@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: 'How old is Florin?',
+    question: 'How are You?',
     a: '10',
     b: '15',
     c: '26',
