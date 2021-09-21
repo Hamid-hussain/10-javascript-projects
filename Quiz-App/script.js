@@ -1,14 +1,7 @@
 const quizData = [
+  
   {
-    question: 'How are You?',
-    a: '10',
-    b: '15',
-    c: '26',
-    d: '110',
-    correct: 'c'
-  },
-  {
-    question: 'What is the most use best programming Language in 2019?',
+    question: 'Which was the most use best programming Language in 2019?',
     a: 'Java',
     b: 'C',
     c: 'Python',
