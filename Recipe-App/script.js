@@ -42,7 +42,7 @@ function addMeal(mealData) {
       <i class="fas fa-heart"></i>
     </button>
   </div>
-  <button onClick="location.reload()" class="mt-2 p-2 bg-red-400 rounded w-full font-semibold">Next</button> `;
+  <button onClick="location.reload()" class="mt-2 p-2 bg-red-500 hover:bg-red-400  rounded w-full font-semibold">Next</button> `;
 
   const btn = meal.querySelector('.meal-body .fav-btn');
 
@@ -54,7 +54,8 @@ function addMeal(mealData) {
       addMealLS(mealData.idMeal)
       btn.classList.add('active')
     }
-    
+    favMeals.innerHTML = '';
+    fetchFavMeals()
   });
 
 meals.appendChild(meal);
