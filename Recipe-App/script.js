@@ -38,10 +38,11 @@ function addMeal(mealData) {
   </div>
   <div class="meal-body flex justify-between items-center p-2 bg-red-500 w-60">
     <h4 class="font-bold">${mealData.strMeal}</h4>
-    <button class="fav-btn active:text-red-400 ">
+    <button class="fav-btn active:text-red-900">
       <i class="fas fa-heart"></i>
     </button>
-  </div> `;
+  </div>
+  <button onClick="location.reload()" class="mt-2 p-2 bg-red-400 rounded w-full font-semibold">Next</button> `;
 
   const btn = meal.querySelector('.meal-body .fav-btn');
 
@@ -100,7 +101,8 @@ function addMealFav(mealData) {
   <li class="flex-row text-center w-14 h-14 rounded-full mb-20">
       <img src="${mealData.strMealThumb}" class="rounded-full object-contain" alt="${mealData.strMeal}" />
       <span>${mealData.strMeal}</span>
-  </li>`;
+  </li>
+  `;
 
   favMeals.appendChild(favMeal)
 
