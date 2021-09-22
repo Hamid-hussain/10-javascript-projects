@@ -1,0 +1,23 @@
+{
+  "name": "10-javascript-projects",
+  "version": "1.0.0",
+  "description": "Built 10 JavaScript Project",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwindcss build ./src/styles.css -o Recipe-App/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamid-hussain/10-javascript-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamid-hussain/10-javascript-projects/issues"
+  },
+  "homepage": "https://github.com/Hamid-hussain/10-javascript-projects#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.15"
+  }
+}
